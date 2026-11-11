@@ -4,7 +4,7 @@
 
 `logtriage.py` parses SSH authentication logs, runs five high-signal detections, and produces a triage report an analyst can act on immediately — each finding ranked by severity and backed by the exact log lines that prove it. Pure Python standard library: no dependencies, no network calls, runs anywhere Python 3 does.
 
-Built by Barry Harris ([Breachnode](https://github.com/Breachnode)) — U.S. Navy veteran, Tier 2 support background, CompTIA Security+ / CySA+ / PenTest+.
+Built by [Breachnode](https://github.com/Breachnode) — U.S. Navy veteran, Tier 2 support background, CompTIA Security+ / CySA+ / PenTest+.
 
 ## The detections
 
