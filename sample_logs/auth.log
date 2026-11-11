@@ -1,0 +1,32 @@
+Nov 11 00:58:11 srv-web-01 CRON[881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 11 01:15:43 srv-web-01 sshd[1021]: Accepted password for deploy from 10.0.4.15 port 49812 ssh2
+Nov 11 02:41:09 srv-web-01 sshd[1107]: Failed password for backup from 192.0.2.44 port 60114 ssh2
+Nov 11 02:44:37 srv-web-01 sshd[1112]: Failed password for backup from 192.0.2.44 port 60198 ssh2
+Nov 11 02:47:52 srv-web-01 sshd[1119]: Accepted password for backup from 192.0.2.44 port 60277 ssh2
+Nov 11 03:02:14 srv-web-01 sshd[1201]: Failed password for root from 203.0.113.66 port 51001 ssh2
+Nov 11 03:02:41 srv-web-01 sshd[1202]: Failed password for root from 203.0.113.66 port 51009 ssh2
+Nov 11 03:03:05 srv-web-01 sshd[1204]: Failed password for admin from 203.0.113.66 port 51020 ssh2
+Nov 11 03:03:58 srv-web-01 sshd[1206]: Failed password for root from 203.0.113.66 port 51031 ssh2
+Nov 11 03:04:22 srv-web-01 sshd[1208]: Failed password for invalid user oracle from 203.0.113.66 port 51044 ssh2
+Nov 11 03:05:10 srv-web-01 sshd[1210]: Failed password for root from 203.0.113.66 port 51052 ssh2
+Nov 11 03:06:03 srv-web-01 sshd[1213]: Failed password for admin from 203.0.113.66 port 51066 ssh2
+Nov 11 03:07:29 srv-web-01 sshd[1215]: Failed password for root from 203.0.113.66 port 51080 ssh2
+Nov 11 03:07:59 srv-web-01 sshd[1216]: Connection closed by 203.0.113.66 port 51082 [preauth]
+Nov 11 04:30:02 srv-web-01 sshd[1300]: Accepted password for deploy from 10.0.4.15 port 49901 ssh2
+Nov 11 06:12:48 srv-web-01 sudo:   barry : TTY=pts/0 ; PWD=/home/barry ; USER=root ; COMMAND=/usr/bin/systemctl status sshd
+Nov 11 08:15:20 srv-web-01 sshd[1402]: Accepted password for barry from 73.114.22.8 port 52310 ssh2
+Nov 11 09:03:44 srv-web-01 sshd[1419]: Failed password for barry from 73.114.22.8 port 52388 ssh2
+Nov 11 09:04:15 srv-web-01 sshd[1421]: Accepted password for barry from 73.114.22.8 port 52401 ssh2
+Nov 11 10:02:11 srv-web-01 sshd[1501]: Failed password for deploy from 198.51.100.99 port 61001 ssh2
+Nov 11 10:02:49 srv-web-01 sshd[1502]: Failed password for deploy from 198.51.100.99 port 61010 ssh2
+Nov 11 10:03:31 srv-web-01 sshd[1504]: Failed password for deploy from 198.51.100.99 port 61022 ssh2
+Nov 11 10:04:18 srv-web-01 sshd[1506]: Failed password for deploy from 198.51.100.99 port 61035 ssh2
+Nov 11 10:05:02 srv-web-01 sshd[1508]: Failed password for deploy from 198.51.100.99 port 61047 ssh2
+Nov 11 10:06:26 srv-web-01 sshd[1510]: Failed password for deploy from 198.51.100.99 port 61059 ssh2
+Nov 11 10:07:40 srv-web-01 sshd[1512]: Accepted password for deploy from 198.51.100.99 port 61070 ssh2
+Nov 11 11:26:09 srv-web-01 sshd[1601]: Accepted password for maria from 172.16.8.40 port 53011 ssh2
+Nov 11 13:05:33 srv-web-01 sshd[1702]: Accepted password for barry from 73.114.22.8 port 53100 ssh2
+Nov 11 13:17:48 srv-web-01 sshd[1709]: Accepted password for barry from 96.10.44.201 port 53144 ssh2
+Nov 11 15:40:21 srv-web-01 sshd[1801]: Accepted password for maria from 172.16.8.40 port 53220 ssh2
+Nov 11 17:22:05 srv-web-01 sshd[1901]: Failed password for invalid user test from 45.148.10.7 port 62001 ssh2
+Nov 11 22:58:11 srv-web-01 CRON[1950]: pam_unix(cron:session): session closed for user root
