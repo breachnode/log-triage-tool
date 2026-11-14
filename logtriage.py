@@ -44,7 +44,7 @@ from datetime import datetime, timedelta
 
 # Matches both:
 #   Nov 11 03:12:44 host sshd[1234]: Failed password for invalid user admin from 203.0.113.7 port 51234 ssh2
-#   Nov 11 03:14:01 host sshd[1235]: Accepted password for barry from 198.51.100.23 port 51235 ssh2
+#   Nov 11 03:14:01 host sshd[1235]: Accepted password for jsmith from 198.51.100.23 port 51235 ssh2
 AUTH_RE = re.compile(
     r"^(?P<mon>[A-Z][a-z]{2})\s+(?P<day>\d{1,2})\s+(?P<time>\d{2}:\d{2}:\d{2})\s+"
     r"\S+\s+sshd\[\d+\]:\s+(?P<result>Failed|Accepted) password for "
