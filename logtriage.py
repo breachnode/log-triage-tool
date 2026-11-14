@@ -27,7 +27,7 @@ Usage
     python3 logtriage.py auth.log --format json --out report.json
     python3 logtriage.py auth.log --brute-threshold 8 --brute-window 5
 
-Author: Barry Harris (Breachnode)
+Author: Breachnode
 """
 
 import argparse
