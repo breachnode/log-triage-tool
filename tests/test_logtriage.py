@@ -68,14 +68,14 @@ class TestKnownBadIp(unittest.TestCase):
 
 class TestRapidIpSwitching(unittest.TestCase):
     def test_two_ips_in_window_fire(self):
-        events = [ev(5, "Accepted", "barry", "10.0.0.1"),
-                  ev(17, "Accepted", "barry", "10.0.0.2")]
+        events = [ev(5, "Accepted", "jsmith", "10.0.0.1"),
+                  ev(17, "Accepted", "jsmith", "10.0.0.2")]
         findings = detect_rapid_ip_switching(events, window_minutes=30, min_ips=2)
         self.assertEqual(len(findings), 1)
 
     def test_same_ip_does_not_fire(self):
-        events = [ev(5, "Accepted", "barry", "10.0.0.1"),
-                  ev(17, "Accepted", "barry", "10.0.0.1")]
+        events = [ev(5, "Accepted", "jsmith", "10.0.0.1"),
+                  ev(17, "Accepted", "jsmith", "10.0.0.1")]
         self.assertEqual(detect_rapid_ip_switching(events, 30, 2), [])
 
 
