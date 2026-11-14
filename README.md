@@ -49,7 +49,7 @@ Against the bundled sample log (28 auth events buried in cron/sudo noise), the t
 | 3 | HIGH     | brute_force        | 8 failed logins from 203.0.113.66 within 10 min (root, admin, oracle)   |
 | 4 | HIGH     | brute_force        | 6 failed logins from 198.51.100.99 within 10 min (deploy)               |
 | 5 | HIGH     | known_bad_ip       | 1 auth event from blocklisted 45.148.10.7                               |
-| 6 | MEDIUM   | rapid_ip_switching | 'barry' logged in from 2 IPs within 30 min                              |
+| 6 | MEDIUM   | rapid_ip_switching | 'jsmith' logged in from 2 IPs within 30 min                              |
 | 7-9 | LOW    | off_hours_success  | Successful logins at 01:15, 02:47, 04:30                                |
 ```
 
